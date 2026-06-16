@@ -12,7 +12,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'master', url: 'https://github.com/Shukruth-Gowda/Maven_anisble.git'
+                git branch: 'master', url: 'https://github.com/Shukruth-Gowda/an1.git'
             }
         }
 
