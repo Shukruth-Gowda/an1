@@ -9,7 +9,7 @@ pipeline {
 
         stage('Checkout') {
             steps {
-                git branch: 'master', url: 'https://github.com/username/mvt.git'
+                git branch: 'master', url: 'https://github.com/Shukruth-Gowda/an1.git'
             }
         }
 
